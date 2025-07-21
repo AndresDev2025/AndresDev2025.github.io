@@ -1,0 +1,90 @@
+body {
+  font-style: italic;
+  background-color: #f5f5f5;
+  color: black; /* color letras del texto*/
+  margin: 2px;
+  padding: 0;
+  text-shadow: 2px 2px 4px #27b500;
+}
+
+header {
+  text-shadow: 2px 2px 4pxb #27b500 ;
+  background-color: green;
+  color:white; /* color del titulo*/
+  text-align: center;
+  padding: 30px;/* tamaño de la franja del titulo*/
+  margin-bottom: 20px;
+  font-size: 3.1em;
+  box-shadow:  0 0 100px blue;   
+  border-radius: 50px;
+  animation: aparecer 2s ease-out forwards;
+}
+
+/* Definimos la animación */
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(34);
+  }
+}
+
+.subtitulo {
+  font-size: 2.2em; /* tamaño del texto siguinte del titulo*/
+  margin-top: 10px;
+  font-style: sans;
+}
+
+main {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+ text-shadow: 2px 2px 5px black;
+}
+
+section {
+  background-color: #f7fcdc;/* color de las feranjas de texto*/
+  margin-bottom: 25px;/* distancia de las franjas de texto*/
+  padding: 15px 20px;
+  border-left: 20px solid #0012b5;/* tamaño y color de los orilos azules de la franja*/
+  box-shadow: 0 0 100px black; /* sombras de las franjas de texto*/
+  border-radius: 10px;/* forma del fondo del texto */
+   animation: aparecer 2s ease-out forwards;
+}
+
+/* Definimos la animación */
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(34);
+  }
+}
+}
+
+h2 {
+  margin-bottom: 10px;/* distancia de el titulo a el texto*/
+  color:red;/* color de los subtitulos*/
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  background-color: green;
+  color: white; /* color de la fanja de abajo */
+  text-shadow: 3px 3px 5px white;/* sombre de las franjas*/
+  box-shadow: 0 0 100px blue;/* sombras de las franja de abajo*/
+  border-radius: 50px;
+}
+header {
+  background-image: url("hola.jpg");
+  background-size: cover;
+  background-position: center;
+}
